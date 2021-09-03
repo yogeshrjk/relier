@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@900&display=swap');
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background: #F7FBFC;
+}
+
+
+/* The sidepanel menu */
+
+.sidepanel {
+    height: 100vh;
+    /* Specify a height */
+    width: 0;
+    /* 0 width - change this with JavaScript */
+    position: fixed;
+    /* Stay in place */
+    z-index: 5;
+    /* Stay on top */
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.95);
+    /* Disable horizontal scroll */
+    /* Place content 60px from the top */
+    transition: 0.5s;
+    /* 0.5 second transition effect to slide in the sidepanel */
+    box-shadow: 0px 0px 5px;
+    overflow: hidden;
+}
+
+
+/* The sidepanel links */
+
+.panelcontent a {
+    padding: 8px 8px 16px 15px;
+    text-decoration: none;
+    font-size: 18px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+    text-transform: capitalize;
+    justify-items: left;
+}
+
+.panelcontent {
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 30vh;
+}
+
+
+/* When you mouse over the navigation links, change their color */
+
+.sidepanel a:hover {
+    color: #f1f1f1;
+}
+
+a.active {
+    color: #f1f1f1;
+}
+
+
+/* Position and style the close button (top right corner) */
+
+.sidepanel .closebtn {
+    font-size: 25px;
+    cursor: pointer;
+    border: none;
+    display: block;
+    margin: 0px;
+    padding: 5px 10px;
+}
+
+.sidepanel .closebtn i {
+    color: white;
+}
+
+.sidepanel .closebtn i:hover {
+    color: #0074D9;
+}
+
+
+/* Style the button that is used to open the sidepanel */
+
+.openbtn {
+    font-size: 25px;
+    cursor: pointer;
+    background-color: #0074D9;
+    color: white;
+    padding: 0px 10px;
+    border: none;
+}
+
+.openbtn:hover {
+    color: black;
+    border: none;
+}
+
+
+/*top bar*/
+
+a i {
+    color: #0074D9;
+}
+
+.navbar {
+    background-color: #0074D9 !important;
+    min-height: 7vh !important;
+    margin: 0px !important;
+    padding: 0px !important;
+    position: sticky !important;
+    box-shadow: 0px 0px 5px;
+    z-index: 4 !important;
+}
+
+#signout {
+    text-decoration: none;
+    color: white;
+    opacity: 0.6;
+    font-size: 18px;
+    float: right;
+    margin-right: 15px;
+    font-weight: 600;
+}
+
+#signout i {
+    color: white;
+    opacity: 0.6;
+}
+
+#signout:hover {
+    opacity: 1;
+}
+
+.navbar h2 {
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Sansita Swashed', cursive;
+    text-transform: capitalize;
+    opacity: 0.4;
+}
+
+.navbar h2:hover {
+    color: white;
+    opacity: 1;
+    box-shadow: inset;
+}
+
+
+/************************/
+
+#user img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50% !important;
+    padding: 15px;
+}
+
+#user h4 {
+    font-size: 18px;
+    color: white;
+    padding: 3px;
+    text-align: center;
+    text-transform: uppercase;
+    position: relative;
+    display: block;
+}
+
+@media only screen and (max-width: 700px) {
+    .panelcontent a {
+        font-size: 20px;
+    }
+}

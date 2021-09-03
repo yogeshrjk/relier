@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@900&family=Secular+One&display=swap');
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100%;
+}
+
+.bg {
+    background-image: url('../images/background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+}
+
+.back {
+    background-color: rgba(0, 0, 0, 0.6);
+    height: 100vh;
+}
+
+.wel p {
+    color: white !important;
+    font-size: 30px !important;
+    font-family: 'Sansita Swashed', cursive !important;
+    position: relative !important;
+}
+
+.form-container {
+    margin-top: 10vh;
+    position: relative;
+}
+
+.form-group {
+    width: 250px !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    color: white !important;
+    position: relative !important;
+}
+
+.btn:not(:disabled):not(.disabled) {
+    cursor: pointer;
+    margin-left: 40px;
+    display: block;
+}
+
+.btn {
+    width: 250px !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    border-radius: 50px;
+}
+
+.form-control {
+    background-color: transparent !important;
+    border: 2px solid white !important;
+    border-radius: 50px !important;
+    color: white;
+}
+
+.form-control:active,
+.form-control:focus,
+.form-control:focus:active {
+    border-color: #96d3ec !important;
+    color: white !important;
+}
+
+p {
+    font-family: 'Sansita Swashed', cursive;
+    font-size: 50px;
+    color: white;
+}
+
+h1 {
+    color: white;
+    font-family: 'Sansita Swashed', cursive;
+    font-size: 35px;
+    opacity: 0.6;
+}
+
+@media only screen and (max-height: 500px) {
+    .form-container {
+        margin-top: 0px;
+    }
+    .wel {
+        visibility: hidden;
+    }
+    .bg {
+        height: 110vh;
+    }
+    .logo {
+        visibility: hidden;
+    }
+}

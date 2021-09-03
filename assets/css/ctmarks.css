@@ -1,0 +1,76 @@
+.form-container {
+    margin-top: 10px !important;
+    text-transform: capitalize;
+}
+
+.col-12 {
+    margin-top: 5px !important;
+}
+
+label {
+    font-weight: bold;
+}
+
+select {
+    width: fit-content !important;
+}
+
+input {
+    width: 100% !important;
+}
+
+input[type="file"] {
+    border: 1px solid gray !important;
+    border-radius: 5px;
+}
+
+input[type="submit"] {
+    color: white;
+    border: none;
+    font-size: 15px;
+    background-color: #0F111B;
+    padding: 5px !important;
+    height: fit-content !important;
+}
+
+input[type="submit"]:hover {
+    background-color: #0074D9;
+}
+
+.form-group {
+    width: 100%;
+}
+
+.form-control {
+    margin: 10px 0px !important;
+}
+
+table {
+    position: relative;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    padding: 0.25rem;
+}
+
+th {
+    position: sticky;
+    top: 0;
+    /* Don't forget this, required for the stickiness */
+    box-shadow: 0 2px 2px -1px rgba(0, 0, 0, 0.4);
+}
+
+@media only screen and (max-width: 700px) {
+    input[type="submit"] {
+        width: 100% !important;
+    }
+    input[type="file"] {
+        width: 100% !important;
+    }
+    .form-container {
+        height: fit-content;
+        border-right: none !important;
+    }
+}

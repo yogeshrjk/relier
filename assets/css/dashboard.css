@@ -1,0 +1,21 @@
+.col-12 {
+    margin-top: 10px;
+    overflow-x: hidden;
+}
+
+table {
+    border: none !important;
+}
+
+td {
+    text-align: center !important;
+    text-transform: capitalize !important;
+    font-size: 15px !important;
+    padding: 5px !important;
+}
+
+th {
+    text-transform: uppercase !important;
+    font-size: 15px !important;
+    text-align: center !important;
+}

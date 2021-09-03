@@ -1,0 +1,34 @@
+select {
+    margin: 5px 0px !important;
+}
+
+
+/* tbody {
+    display: table;
+    height: 100%;
+    overflow: auto;
+}
+
+thead,
+tbody tr {
+    display: table;
+    width: 100%;
+    table-layout: fixed;
+}
+
+th,
+td {
+    text-align: center !important;
+    text-transform: capitalize;
+    width: 100% !important;
+} */
+
+thead {
+    position: fixed;
+}
+
+tr {
+    width: 100%;
+    display: table;
+    table-layout: fixed;
+}

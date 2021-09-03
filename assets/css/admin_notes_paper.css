@@ -1,0 +1,85 @@
+/**************form************/
+
+.form-container label {
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    color: #0F111B;
+    text-decoration: none;
+    margin-top: 10px;
+    text-transform: capitalize;
+    text-align: left;
+}
+
+.form-control-file,
+.form-control-range {
+    display: block;
+    width: 100%;
+    border: 1px solid lightgrey !important;
+    background-color: white !important;
+    border-radius: 3px;
+}
+
+.form-container {
+    border-bottom: 2px solid #BDBCCA;
+    height: 100%;
+    padding: 20px;
+    position: relative;
+}
+
+input[type="submit"] {
+    color: white;
+    border: none;
+    font-size: 15px;
+    background-color: #0F111B;
+}
+
+input[type="submit"]:hover {
+    background-color: #0074D9;
+}
+
+.delete input[type="submit"] {
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.delete input[type="submit"]:hover {
+    background-color: red;
+}
+
+@media only screen and (min-width: 992px) {
+    .form-container {
+        position: fixed !important;
+        border-left: 2px solid #BDBCCA;
+    }
+}
+
+
+/***********preview***********/
+
+.preview {
+    margin-top: 10px;
+}
+
+tbody {
+    display: table;
+    height: 80vh;
+    overflow: auto;
+}
+
+thead,
+tbody tr {
+    display: table;
+    width: 100%;
+    table-layout: fixed;
+}
+
+th,
+td {
+    text-align: center !important;
+    text-transform: capitalize;
+}
+
+.modal-body {
+    width: 100%!important;
+    height: 100vh;
+}
